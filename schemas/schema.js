@@ -14,7 +14,6 @@ import author from './documents/author'
 import blockContent from './objects/blockContent'
 import imageBlock from './objects/imageBlock'
 import ingredient from './objects/ingredient'
-import utensil from './objects/utensil'
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -32,6 +31,5 @@ export default createSchema({
     blockContent,
     imageBlock,
     ingredient,
-    utensil
   ]),
 })
