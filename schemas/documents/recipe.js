@@ -18,17 +18,17 @@ export default {
       name: 'author',
       to: [{type: 'author'}]
     },
-    {
-      name: 'equipment',
-      title: 'Equipment',
-      type: 'array',
-      of: [
-        {
-          type: 'reference', 
-          to: [{type: 'utensil'}]
-        }
-      ]
-    },
+    // {
+    //   name: 'equipment',
+    //   title: 'Equipment',
+    //   type: 'array',
+    //   of: [
+    //     {
+    //       type: 'reference',
+    //       to: [{type: 'utensil'}]
+    //     }
+    //   ]
+    // },
     {
       name: 'ingredients',
       title: 'Ingredients',
